@@ -13,7 +13,7 @@ ClickFix attacks work like this:
 3. The page instructs the user to press Win+R, paste (Ctrl+V), and hit Enter
 4. The user unknowingly executes the payload themselves — bypassing traditional security controls
 
-The key insight: when JavaScript writes to the clipboard via navigator.clipboard.writeText(), the clipboard contains CF_UNICODETEXT only — no CF_HTML format. When a user manually selects and copies text from a webpage, the browser places both CF_UNICODETEXT and CF_HTML on the clipboard. ClipGuard uses this format difference as its primary detection signal.
+The key insight: when JavaScript writes to the clipboard via navigator.clipboard.writeText(), the clipboard contains CF_UNICODETEXT only —When a user manually selects and copies text from a webpage, the browser places both CF_UNICODETEXT and CF_HTML on the clipboard. ClipGuard uses this format difference as  one of its primary detection signal.
 
 ## How It Works
 
