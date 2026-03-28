@@ -25,7 +25,7 @@ ClipGuard runs in the system tray and layers multiple detection mechanisms:
 
 3. Keyboard Hook (Ctrl+V Interception) — A low-level keyboard hook (WH_KEYBOARD_LL) intercepts Ctrl+V keystrokes. When a paste is attempted into an execution surface with browser-sourced clipboard content, ClipGuard evaluates the threat.
 
-4. Format-Based Verdict — If the clipboard content came from a browser and contains text only (no CF_HTML), it flags as suspicious — indicating a JavaScript clipboard write rather than user-initiated copy. The paste is blocked and the user sees an alert with the clipboard contents before deciding to allow or block.
+4. Format-Based Verdict — If the clipboard content came from a browser and contains text only (no CF_HTML), it flags as suspicious — indicating a likely JavaScript clipboard write rather than user-initiated copy( no HTML indicator). The paste is blocked and the user sees an alert with the clipboard contents before deciding to allow or block.
 
 ## Detection Logic
 ```
