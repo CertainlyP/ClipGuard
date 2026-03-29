@@ -27,6 +27,11 @@ ClipGuard runs in the system tray and layers multiple detection mechanisms:
 
 4. Format-Based Verdict — If the clipboard content came from a browser and contains text only (no CF_HTML), it flags as suspicious — indicating a likely JavaScript clipboard write rather than user-initiated copy( no HTML indicator). The paste is blocked and the user sees an alert with the clipboard contents before deciding to allow or block.
 
+
+## Demo 
+<img width="2276" height="1055" alt="image" src="https://github.com/user-attachments/assets/c23b4440-9adb-422a-a4cc-6d64d6a9e6e5" />
+
+
 ## Detection Logic
 ```
 Clipboard updated by browser?
