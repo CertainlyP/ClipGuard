@@ -32,6 +32,7 @@ ClipGuard runs in the system tray and layers multiple detection mechanisms:
 <img width="2276" height="1055" alt="image" src="https://github.com/user-attachments/assets/c23b4440-9adb-422a-a4cc-6d64d6a9e6e5" />
 
 
+
 ## Detection Logic
 ```
 Clipboard updated by browser?
