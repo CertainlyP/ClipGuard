@@ -30,7 +30,7 @@ ClipGuard runs in the system tray and layers multiple detection mechanisms:
 
 ## Demo 
 <img width="2276" height="1055" alt="image" src="https://github.com/user-attachments/assets/c23b4440-9adb-422a-a4cc-6d64d6a9e6e5" />
-https://github.com/user-attachments/assets/951fb1d8-0d30-46fb-a7d9-a4798a101e09
+<video src="https://github.com/user-attachments/assets/951fb1d8-0d30-46fb-a7d9-a4798a101e09" controls width="100%"></video>
 
 
 
